@@ -43,13 +43,6 @@ Os conteúdos aqui registrados têm como objetivo consolidar o aprendizado teór
 
 ---
 
-## 🧠 Ementa
-
-Tipo Abstrato de Dados. Alocação estática X alocação dinâmica.  
-Estruturas de Dados: **listas, filas, pilhas e hash**, abordando definições, propriedades, operações, aplicações e algoritmos.
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **Linguagem:** JavaScript  
