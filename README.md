@@ -1,50 +1,35 @@
-# 📚 Estrutura de Dados 1
+# 📚 Estrutura de Dados I
 
-Repositório dedicado aos estudos da disciplina **Estrutura de Dados 1**, com foco nos fundamentos, estruturas lineares e não lineares, além de uma introdução à análise de complexidade de algoritmos.  
-Os conteúdos aqui registrados têm como objetivo consolidar o aprendizado teórico por meio de **implementações práticas em JavaScript**.
+## 📌 Descrição
 
----
+Este repositório contém aulas, exercícios e implementações desenvolvidas durante a disciplina de Estrutura de Dados I. O objetivo é reunir exemplos práticos e estruturas fundamentais utilizadas no estudo e na aplicação de conceitos clássicos da área.
 
-## 🎯 Objetivos da Disciplina
+## 📁 Estrutura do Repositório
 
-- Compreender o conceito de **Tipo Abstrato de Dados (TAD)**
-- Diferenciar **alocação estática** e **alocação dinâmica**
-- Estudar e implementar **estruturas de dados clássicas**
-- Analisar propriedades, operações e aplicações das estruturas
-- Introduzir conceitos de **complexidade de algoritmos**
-- Desenvolver raciocínio lógico e eficiência computacional
+* 📂 aulas → conteúdos e exemplos apresentados durante as aulas
+* 📂 exercicios → atividades práticas propostas ao longo da disciplina
+* 📂 libs → implementações de estruturas de dados utilizadas como apoio (classes reutilizáveis)
 
----
+## 🧠 Conteúdos Abordados
 
-## 🗂️ Conteúdo Programático
+### 1º Bimestre
 
-### 🔹 1º Bimestre — Fundamentos e Estruturas Lineares
+* Tipo Abstrato de Dados (TAD)
+* Alocação Estática vs. Dinâmica
+* Estruturas de Dados: Listas
+* Estruturas de Dados: Filas
+* Estruturas de Dados: Pilhas
 
-- Tipo Abstrato de Dados (TAD)
-- Alocação Estática vs. Alocação Dinâmica
-- Estrutura de Dados: **Listas**
-- Estrutura de Dados: **Filas**
-- Estrutura de Dados: **Pilhas**
+### 2º Bimestre
 
----
+* Matriz Esparsa: definições e propriedades
+* Tabela Hash: propriedades e algoritmos
+* Grafos: definições e aplicações
+* Introdução à Complexidade de Algoritmos
 
-### 🔹 2º Bimestre — Estruturas Avançadas e Análise
+## 🚀 Tecnologias Utilizadas
 
-- **Matriz Esparsa**
-  - Definições
-  - Propriedades
-- **Tabela Hash**
-  - Propriedades
-  - Algoritmos
-- **Grafos**
-  - Definições
-  - Aplicações
-- Introdução à **Complexidade de Algoritmos**
+* JavaScript
 
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **Linguagem:** JavaScript  
-- **Editor:** Visual Studio Code (VS Code)  
-- **Versionamento:** Git & GitHub  
+## 📌 Nota
+Repositório voltado para fins acadêmicos.
