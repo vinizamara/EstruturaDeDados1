@@ -19,8 +19,8 @@ function factorial(n){
 
     // memória real usada pelo processo
     let memoriaTotalMB = 'N/A';
-    if (typeof process !== 'undefined' && process.memoryUsage){
-        memoriaTotalMB = process.memoryUsage.heapUsed / 1024 / 1024;
+    if (typeof process !== 'undefined' && process.memoryUsage()){
+        memoriaTotalMB = process.memoryUsage().heapUsed / 1024 / 1024;
     }
 
     console.clear();
@@ -28,10 +28,10 @@ function factorial(n){
     console.log("--- Análise de complexidade recursiva O(n!) ---")
     console.log("Tamanho da entrada: ", n)
     console.log("Resultado fo Fatorial: ", resultado)
-    console.log("Tempo de execução: ", tempoGasto.toFixed(6), 'ms')
-    console.log("Memória estimada da pilha de chamadas: ", memoriaPilhaMB.toFixed(6) + " MB")
-    console.log("Memória total usada pelo processo: ", typeof memoriaTotalMB === 'number' ? memoriaTotalMB.toFixed(6) + "MB" : memoriaTotalMB)
+    console.log("Tempo de execução: ", tempoGasto.toFixed(2), 'ms')
+    console.log("Memória estimada da pilha de chamadas: ", memoriaPilhaMB + " MB")
+    console.log("Memória total usada pelo processo: ", typeof memoriaTotalMB === 'number' ? memoriaTotalMB.toFixed(2) + " MB" : memoriaTotalMB)
 }
 
-const numero = 100;
+const numero = 5000;
 factorial(numero);
