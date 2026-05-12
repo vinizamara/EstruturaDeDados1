@@ -29,7 +29,11 @@ Este repositório contém aulas, exercícios e implementações desenvolvidas du
 
 ## 🚀 Tecnologias Utilizadas
 
-* JavaScript
+<p align="left">
+
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="35" />
+
+</p>
 
 ## 📌 Nota
 Repositório voltado para fins acadêmicos.
